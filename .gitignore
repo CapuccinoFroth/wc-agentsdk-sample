@@ -1,0 +1,5 @@
+node_modules/
+.env
+# The SDK persists wallet sessions here by default
+.walletconnect-cli/
+*.log
