@@ -1,0 +1,21 @@
+{
+  "name": "wc-agent-sdk-sample",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A learning sample for the WalletConnect Agents SDK (@walletconnect/cli-sdk)",
+  "scripts": {
+    "connect": "tsx src/connect.ts",
+    "sign": "tsx src/sign.ts",
+    "send": "tsx src/send-tx.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@walletconnect/cli-sdk": "^0.8.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.21",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
